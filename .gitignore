@@ -1,0 +1,64 @@
+# OS metadata
+.DS_Store
+Icon?
+
+# Secrets and local authentication (never upload)
+.env
+.env.*
+credentials.json
+**/credentials*.json
+**/client_secret*.json
+**/service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+.git-credentials
+.credentials/
+secrets.json
+token.json
+api-key.txt
+api_key.txt
+.npmrc
+.pypirc
+.aws/
+.ssh/
+.config/gh/
+.codex/
+auth.json
+secrets/
+.secrets/
+
+# Dependencies and generated caches
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs, temporary files and editor backups
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.pytest_cache/
+.cache/
+
+# Existing private research/content: excluded pending explicit upload review.
+# Policies, skills, prompts and topic history remain eligible for review.
+research/
+posts/
+
+# Non-operational originals and local exports; preserve on disk.
+*.rtf
+/이미지.png
+exports/
+
+# Machine-specific schedules, experiment records and retired private designs
+experiments/
+docs/archive/cloud/
+config/morning-power/*.plist
+topics/manual-topic.md
